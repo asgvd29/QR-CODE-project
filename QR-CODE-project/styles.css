@@ -1,6 +1,6 @@
 /* Base styles */
 body {
-    font-family: Arial, sans-serif;
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,8 +10,41 @@ body {
 }
 
 .qr-code{
-    display: block; /* Centers the image horizontally if parent has text-align: center */
-    margin: 20px auto; /* Adds space around the image and centers it */
-    width: 200px; /* Adjust the size of the QR code */
+    display:block; 
+    margin: 20px auto; 
+    width: 250px; 
     height: auto; 
+    border: royalblue 5px solid; /* Adds a border around the QR code */
+    border-radius: 10px; /* Rounds the corners of the QR code */
 }
+.themain{
+    max-width: 250px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1{color: #333;
+    font-family: 'Nunito', sans-serif;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: 700;
+    max-width: 600px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    font-size: 1.5rem;
+  
+}
+h2{color: #7e7979b0;
+    font-family: 'Nunito', sans-serif;
+    
+    margin: 10px auto;
+    text-align: center;
+    max-width: 600px;
+    font-weight: 700;
+    line-height: 1.5;
+    word-wrap: break-word;
+    font-size: 15px;}
