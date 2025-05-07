@@ -9,56 +9,9 @@ body {
     background-color: #f9f9f9; /* Light background for better contrast */
 }
 
-/* Mobile styles (default) */
-.container {
-    width: 100%;
-    max-width: 375px;
-    margin: 0 auto;
-    padding: 16px;
-}
-
-/* Tablet styles */
-@media (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 24px;
-    }
-}
-
-/* Desktop styles */
-@media (min-width: 1024px) {
-    .container {
-        max-width: 1024px;
-        padding: 32px;
-    }
-}
-
-/* Large desktop styles */
-@media (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
-        padding: 40px;
-    }
-}/* Base styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Mobile styles (default) */
-.container {
-    width: 100%;
-    max-width: 375px;
-    margin: 0 auto;
-    padding: 16px;
-}
-
-/* Desktop styles */
-@media (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
-        padding: 32px;
-    }
+.qr-code{
+    display: block; /* Centers the image horizontally if parent has text-align: center */
+    margin: 20px auto; /* Adds space around the image and centers it */
+    width: 200px; /* Adjust the size of the QR code */
+    height: auto; 
 }
