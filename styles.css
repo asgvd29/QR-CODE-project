@@ -1,4 +1,5 @@
 /* Base styles */
+@import url(https://fonts.google.com/specimen/Outfit);
 body {
 
     margin: 0;
@@ -6,8 +7,10 @@ body {
     box-sizing: border-box;
     line-height: 1.5; /* Improves readability */
     color: #333; /* Ensures good contrast */
-    background-color: #f9f9f9; /* Light background for better contrast */
-}
+    background-color: hsl(212, 45%, 89%)
+    ;
+    /* Light background for better contrast */
+    width: auto; 
 
 .qr-code{
     display:block; 
@@ -20,7 +23,7 @@ body {
 .themain{
     max-width: 250px;
     margin: 150px auto;
-    padding: 20px;
+    padding: 20px ;
     background-color: #f8f9fa;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
@@ -28,7 +31,8 @@ body {
 }
 
 h1{color: #333;
-    font-family: 'Nunito', sans-serif;
+    
+    font-family: 'Outfit', sans-serif;
     margin: 10px auto;
     text-align: center;
     font-weight: 700;
@@ -39,12 +43,14 @@ h1{color: #333;
   
 }
 h2{color: #7e7979b0;
-    font-family: 'Nunito', sans-serif;
+
+    font-family: 'Outfit', sans-serif;
     
     margin: 10px auto;
     text-align: center;
     max-width: 600px;
-    font-weight: 700;
+    font-weight: 450;
     line-height: 1.5;
     word-wrap: break-word;
-    font-size: 15px;}
+    font-size: 15px;
+    font-size: 1.0rem;}}
